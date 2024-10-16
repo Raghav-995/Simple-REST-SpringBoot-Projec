@@ -1,5 +1,7 @@
 package com.firstspringboot.firstspringboot.models;
 
+// import jakarta.persistence.Entity;
+// import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -7,6 +9,8 @@ import lombok.Data;
 @AllArgsConstructor
 public class ProductsModel {
     
+    
+    private int id;
     private String name;
     private String description;
     private double price;
