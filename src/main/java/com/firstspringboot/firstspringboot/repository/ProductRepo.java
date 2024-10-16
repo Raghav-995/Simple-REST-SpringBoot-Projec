@@ -1,9 +1,9 @@
-// package com.firstspringboot.firstspringboot.repository;
+package com.firstspringboot.firstspringboot.repository;
 
-// import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-// import com.firstspringboot.firstspringboot.models.ProductsModel;
+import com.firstspringboot.firstspringboot.models.ProductsModel;
 
-// public interface ProductRepo extends JpaRepository<ProductsModel, Integer> {
+public interface ProductRepo extends JpaRepository<ProductsModel, Integer> {
     
-// }
+}
